@@ -1,0 +1,13 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.background-image {
+  background-image: url(../img/joshua-reddekopp-GkFQEOubrCo-unsplash.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+.button {
+  background: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 999px;
+  cursor: pointer;
+  border: 1px solid #ebebeb;
+  clip-path: circle(0.4% at 50% 50%);
+}
+
+.active {
+  background-color: #bd287f;
+  border: none;
+}
+
+.passive {
+  margin-top: 1em;
+}
+
+.passive:hover {
+  background-color: #bd287f;
+  border: none;
+}
+
+.h2 {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  clip-path: polygon(0 100%, 99% 100%, 100% 100%, 0% 100%);
+  font-size: 3.5rem;
+  font-weight: 100;
+  letter-spacing: 1.5px;
+  margin: 0;
+}
+
+.p {
+  color: #e2e1e1;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 1rem;
+  font-weight: 100;
+  width: 56%;
+  margin-top: 1.5em;
+  margin-left: 0.5em;
+  line-height: 1.5em;
+}
+
+.main-div {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 11%;
+  display: flex;
+}
+
+.button-div {
+  display: flex;
+  flex-direction: column;
+  width: 5%;
+}
+
+.hero-div {
+  margin-left: 2em;
+}
+
+@media (min-width: 2000px) {
+  .button {
+    width: 30px;
+    height: 30px;
+  }
+  .passive {
+    margin-top: 1.7em;
+  }
+
+  .h2 {
+    font-size: 4.8rem;
+  }
+
+  .p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 2200px) {
+  .button {
+    width: 40px;
+    height: 40px;
+  }
+  .passive {
+    margin-top: 2.5em;
+  }
+  .hero-div {
+    margin-left: 5em;
+  }
+  .h2 {
+    font-size: 7rem;
+  }
+
+  .p {
+    font-size: 2rem;
+  }
+}

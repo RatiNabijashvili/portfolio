@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+textarea {
+  outline: 0;
+  background: none;
+  border: 1px solid #cccccc;
+  cursor: text;
+  color: #fff;
+  resize: none;
+  padding: 1em;
+}
+
+input {
+  outline: 0;
+  background: none;
+  border: 1px solid #cccccc;
+  cursor: text;
+  color: #fff;
+  padding-left: 1em;
+}
+
+.main-div {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-form {
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.email-form {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.message-form {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 1.2rem;
+  margin: 0.5em 0;
+}
+
+.default-input {
+  width: 25em;
+  height: 2.5em;
+  border-radius: 999px;
+}
+
+.message-input {
+  width: 24em;
+  height: 10em;
+  border-radius: 15px;
+}
+
+.alert-p {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+  margin: 1em 0.8em;
+}
+
+.comp-div {
+  display: flex;
+  margin-bottom: 0.5em;
+}
+
+.component-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4em;
+  margin-right: 2em;
+}
+
+.component-head {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  margin: 0;
+  margin-bottom: 0.2em;
+}
+
+.component-body {
+  color: #cccccc;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.img-div {
+  width: 500px;
+  height: 800px;
+  margin-top: 10em;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.send-button {
+  margin-top: 3em;
+  width: 10em;
+  height: 2em;
+  background-color: #b7287b;
+  border-radius: 999px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #222020;
+  border: 1px solid #fff;
+}
+
+@media (min-width: 2200px) {
+  input {
+    font-size: 1.5rem;
+    padding-left: 1.2em;
+  }
+  textarea {
+    font-size: 1.5rem;
+  }
+  .main-div {
+    margin-top: 15em;
+  }
+  .label {
+    font-size: 2.2rem;
+    margin: 1em 0;
+  }
+  .name-form {
+    margin-top: 8em;
+  }
+
+  .email-form {
+    margin-top: 5em;
+  }
+
+  .message-form {
+    margin-top: 6em;
+  }
+
+  .default-input {
+    width: 30em;
+    height: 3em;
+  }
+
+  .message-input {
+    width: 29em;
+    height: 10em;
+    border-radius: 35px;
+  }
+
+  .send-button {
+    margin-top: 6rem;
+    font-size: 2rem;
+  }
+
+  .component-div {
+    margin-top: 6em;
+  }
+
+  .component-head {
+    font-size: 1.8rem;
+  }
+
+  .component-body {
+    font-size: 1.8rem;
+  }
+
+  .img-div {
+    width: 1000px;
+    height: 1600px;
+    margin-top: 15em;
+  }
+}

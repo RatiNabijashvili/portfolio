@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+.main-div {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.front-skills {
+  margin-top: 5em;
+}
+
+.h2 {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+.component-div {
+  display: flex;
+}
+
+.component-h2 {
+  color: #ffffff;
+  background-color: #272626;
+  font-family: 'Roboto', sans-serif;
+  padding: 0.2em 0.4em;
+  letter-spacing: 1.5px;
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin: 0;
+  margin-right: 0.7em;
+}
+
+.back-skills {
+  margin-top: 3em;
+}
+
+.design-skills {
+  margin-top: 3em;
+}
+
+.test-div {
+  width: 500px;
+  height: 700px;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 2000px) {
+  .main-div {
+    margin-top: 15em;
+  }
+  .h2 {
+    font-size: 2rem;
+  }
+  .component-h2 {
+    font-size: 2rem;
+  }
+  .back-skills {
+    margin-top: 5em;
+  }
+
+  .design-skills {
+    margin-top: 5em;
+  }
+
+  .test-div {
+    width: 800px;
+    height: 1200px;
+  }
+}
+
+@media (min-width: 2200px) {
+  .main-div {
+    margin-top: 20em;
+  }
+  .h2 {
+    font-size: 2.8rem;
+  }
+  .component-h2 {
+    font-size: 2.5rem;
+  }
+  .front-skills {
+    margin-top: 10em;
+  }
+  .back-skills {
+    margin-top: 6em;
+  }
+
+  .design-skills {
+    margin-top: 6em;
+  }
+
+  .test-div {
+    width: 1000px;
+    height: 1400px;
+  }
+}

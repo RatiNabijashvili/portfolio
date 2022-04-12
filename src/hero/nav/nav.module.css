@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+li {
+  list-style: none;
+  margin: 0 0.7em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 100;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #ffffff;
+  clip-path: polygon(0 100%, 99% 100%, 100% 100%, 0% 100%);
+}
+
+.main-div {
+  position: relative;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+}
+
+.active {
+  border-bottom: 1px solid #bd287f;
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+.passive {
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+.passive:hover {
+  cursor: pointer;
+  color: #bd287f;
+}
+
+@media (min-width: 2000px) {
+  li {
+    font-size: 1.8rem;
+  }
+  .logo {
+    font-size: 2.8rem;
+  }
+}
+
+@media (min-width: 2200px) {
+  li {
+    font-size: 2.5rem;
+  }
+  .logo {
+    font-size: 3.5rem;
+  }
+}
